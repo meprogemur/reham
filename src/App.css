@@ -43,6 +43,7 @@ body {
     font-family: Inter;
     background-color: #FED2D1;
     height: 100vh;
+    overflow: hidden;
 }
 
 #root {
