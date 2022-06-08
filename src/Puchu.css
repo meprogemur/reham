@@ -1,0 +1,24 @@
+.timer>h1,
+.timer>h3 {
+  margin: 0;
+  padding: 10px;
+}
+
+.molang {
+  overflow: hidden;
+  position: relative;
+
+}
+
+
+.timer {
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #FEFEFE;
+  font-size: large;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

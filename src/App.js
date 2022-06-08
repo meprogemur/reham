@@ -1,24 +1,17 @@
-import logo from './logo.svg';
+import { useState } from 'react';
+import Timer from './components/timer.js';
+import Rehmo from './components/Rehmo';
 import './App.css';
 
 function App() {
+  const [isBirthday, setIsBirthDay] = useState(true);
+  console.log(isBirthday)
+  const s = 'booty'
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      {!isBirthday && <Timer updateBirthday={setIsBirthDay} />}
+      {isBirthday && <Rehmo />}
+    </div >
   );
 }
 

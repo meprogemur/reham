@@ -1,0 +1,63 @@
+.bitch {
+    font-family: La Belle Aurore;
+    color: purple;
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: scroll;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 90vh;
+    width: 100vw;
+}
+
+.bitch>h1 {
+    margin: 0px;
+    font-size: 25px;
+}
+
+
+.molang {
+    overflow: hidden;
+    position: relative;
+}
+
+.cover {
+    align-self: center;
+}
+
+.cover2 {
+    height: 200px;
+    align-self: center;
+    margin-bottom: 50px;
+}
+
+.mscon {
+    height: 20px;
+    width: 20px;
+}
+
+.controls {
+    position: sticky;
+    align-self: flex-end;
+    margin-right: 100px;
+    top: 0;
+}
+
+.misconbutt {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    color: purple;
+    margin-top: 20px;
+}
+
+.mscont {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    color: purple;
+}
