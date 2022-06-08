@@ -13,7 +13,7 @@ const Timer = ({ updateBirthday }) => {
 
     const setTimer = () => {
 
-        const countDownDate = new Date("June 19, 2022 08:49:00").getTime();
+        const countDownDate = new Date("June 19, 2022 00:00:00").getTime();
 
         interval = setInterval(() => {
             const now = new Date().getTime();
