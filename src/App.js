@@ -4,7 +4,7 @@ import Rehmo from './components/Rehmo';
 import './App.css';
 
 function App() {
-  const [isBirthday, setIsBirthDay] = useState(true);
+  const [isBirthday, setIsBirthDay] = useState(false);
   console.log(isBirthday)
   const s = 'booty'
   return (

@@ -1,6 +1,6 @@
 import Sound from 'react-sound'
 // import happybirthday from '../music/happy-birthday.mp3'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import playic from '../images/playic.png'
 import stopic from '../images/stopic.png'
 
